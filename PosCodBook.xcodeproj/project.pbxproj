@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3DDCD118421D5600FACAB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DDCD018421D5600FACAB4 /* Default-568h@2x.png */; };
+		0C3DDCD918455A0A00FACAB4 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DDCD518455A0A00FACAB4 /* icon-57.png */; };
+		0C3DDCDA18455A0A00FACAB4 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DDCD618455A0A00FACAB4 /* icon-60.png */; };
+		0C3DDCDB18455A0A00FACAB4 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DDCD718455A0A00FACAB4 /* icon-114.png */; };
+		0C3DDCDC18455A0A00FACAB4 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DDCD818455A0A00FACAB4 /* icon-120.png */; };
+		0C5D3B94182B01FC002AFBE8 /* PostCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3B93182B01FC002AFBE8 /* PostCodes.m */; };
+		0C5D3BAE18338676002AFBE8 /* bgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3BAD18338676002AFBE8 /* bgImg.png */; };
+		0C5D3BB518350FC5002AFBE8 /* Validators.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3BB418350FC4002AFBE8 /* Validators.m */; };
+		0C6F4E48180425CC001DD6DB /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F4E47180425CC001DD6DB /* Notes */; };
+		0C93969E181863BA00F90D84 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C93969D181863BA00F90D84 /* MainView.m */; };
+		0C9C0003181FD36B00C31814 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9C0002181FD36B00C31814 /* CustomCell.m */; };
+		0CA75047181AEC14002C114D /* AddEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA75046181AEC14002C114D /* AddEditView.m */; };
+		0CBD2AB517FDBBE8005339A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBD2AB417FDBBE8005339A4 /* UIKit.framework */; };
+		0CBD2AB717FDBBE8005339A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBD2AB617FDBBE8005339A4 /* Foundation.framework */; };
+		0CBD2AB917FDBBE8005339A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBD2AB817FDBBE8005339A4 /* CoreGraphics.framework */; };
+		0CBD2ABF17FDBBE8005339A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CBD2ABD17FDBBE8005339A4 /* InfoPlist.strings */; };
+		0CBD2AC117FDBBE8005339A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD2AC017FDBBE8005339A4 /* main.m */; };
+		0CBD2AC517FDBBE8005339A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD2AC417FDBBE8005339A4 /* AppDelegate.m */; };
+		0CBD2AD917FDBC32005339A4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD2AD717FDBC32005339A4 /* Model.xcdatamodeld */; };
+		0CBD2B1617FE20B2005339A4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBD2B1517FE20B2005339A4 /* CoreData.framework */; };
+		0CBD2B2017FEE19A005339A4 /* sqlliteNotes in Resources */ = {isa = PBXBuildFile; fileRef = 0CBD2B1F17FEE19A005339A4 /* sqlliteNotes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3DDCD018421D5600FACAB4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		0C3DDCD518455A0A00FACAB4 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = SOURCE_ROOT; };
+		0C3DDCD618455A0A00FACAB4 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = SOURCE_ROOT; };
+		0C3DDCD718455A0A00FACAB4 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = SOURCE_ROOT; };
+		0C3DDCD818455A0A00FACAB4 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = SOURCE_ROOT; };
+		0C5D3B92182B01FC002AFBE8 /* PostCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCodes.h; sourceTree = "<group>"; };
+		0C5D3B93182B01FC002AFBE8 /* PostCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCodes.m; sourceTree = "<group>"; };
+		0C5D3BAD18338676002AFBE8 /* bgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgImg.png; path = /Users/ramesh/Documents/bgImg.png; sourceTree = "<absolute>"; };
+		0C5D3BB318350FC4002AFBE8 /* Validators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validators.h; sourceTree = "<group>"; };
+		0C5D3BB418350FC4002AFBE8 /* Validators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validators.m; sourceTree = "<group>"; };
+		0C6F4E47180425CC001DD6DB /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Notes; path = ../../Notes; sourceTree = "<group>"; };
+		0C93969C181863BA00F90D84 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		0C93969D181863BA00F90D84 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		0C9C0001181FD36B00C31814 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		0C9C0002181FD36B00C31814 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
+		0CA75045181AEC14002C114D /* AddEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditView.h; path = ../AddEditView.h; sourceTree = "<group>"; };
+		0CA75046181AEC14002C114D /* AddEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEditView.m; path = ../AddEditView.m; sourceTree = "<group>"; };
+		0CBD2AB017FDBBE8005339A4 /* PosCodBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosCodBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBD2AB417FDBBE8005339A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CBD2AB617FDBBE8005339A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CBD2AB817FDBBE8005339A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CBD2ABC17FDBBE8005339A4 /* PosCodBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PosCodBook-Info.plist"; sourceTree = "<group>"; };
+		0CBD2ABE17FDBBE8005339A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CBD2AC017FDBBE8005339A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CBD2AC217FDBBE8005339A4 /* PosCodBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PosCodBook-Prefix.pch"; sourceTree = "<group>"; };
+		0CBD2AC317FDBBE8005339A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CBD2AC417FDBBE8005339A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CBD2AD817FDBC32005339A4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0CBD2B1517FE20B2005339A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0CBD2B1F17FEE19A005339A4 /* sqlliteNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sqlliteNotes; path = ../sqlliteNotes; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CBD2AAD17FDBBE8005339A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD2B1617FE20B2005339A4 /* CoreData.framework in Frameworks */,
+				0CBD2AB517FDBBE8005339A4 /* UIKit.framework in Frameworks */,
+				0CBD2AB717FDBBE8005339A4 /* Foundation.framework in Frameworks */,
+				0CBD2AB917FDBBE8005339A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBD2AA517FDBBE7005339A4 = {
+			isa = PBXGroup;
+			children = (
+				0CBD2B1117FE2016005339A4 /* db */,
+				0CBD2ABA17FDBBE8005339A4 /* PosCodeSaver */,
+				0CBD2AB317FDBBE8005339A4 /* Frameworks */,
+				0CBD2AB117FDBBE8005339A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CBD2AB117FDBBE8005339A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CBD2AB017FDBBE8005339A4 /* PosCodBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CBD2AB317FDBBE8005339A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CBD2B1F17FEE19A005339A4 /* sqlliteNotes */,
+				0CBD2B1517FE20B2005339A4 /* CoreData.framework */,
+				0CBD2AB417FDBBE8005339A4 /* UIKit.framework */,
+				0CBD2AB617FDBBE8005339A4 /* Foundation.framework */,
+				0CBD2AB817FDBBE8005339A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CBD2ABA17FDBBE8005339A4 /* PosCodeSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0C93969C181863BA00F90D84 /* MainView.h */,
+				0C9C0002181FD36B00C31814 /* CustomCell.m */,
+				0CA75045181AEC14002C114D /* AddEditView.h */,
+				0C9C0001181FD36B00C31814 /* CustomCell.h */,
+				0CA75046181AEC14002C114D /* AddEditView.m */,
+				0C93969D181863BA00F90D84 /* MainView.m */,
+				0CBD2ABB17FDBBE8005339A4 /* Supporting Files */,
+				0C5D3BB318350FC4002AFBE8 /* Validators.h */,
+				0C5D3BB418350FC4002AFBE8 /* Validators.m */,
+			);
+			path = PosCodeSaver;
+			sourceTree = "<group>";
+		};
+		0CBD2ABB17FDBBE8005339A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3DDCD518455A0A00FACAB4 /* icon-57.png */,
+				0C3DDCD618455A0A00FACAB4 /* icon-60.png */,
+				0C3DDCD718455A0A00FACAB4 /* icon-114.png */,
+				0C3DDCD818455A0A00FACAB4 /* icon-120.png */,
+				0C6F4E47180425CC001DD6DB /* Notes */,
+				0CBD2ABC17FDBBE8005339A4 /* PosCodBook-Info.plist */,
+				0C3DDCD018421D5600FACAB4 /* Default-568h@2x.png */,
+				0C5D3BAD18338676002AFBE8 /* bgImg.png */,
+				0CBD2AC317FDBBE8005339A4 /* AppDelegate.h */,
+				0CBD2AC417FDBBE8005339A4 /* AppDelegate.m */,
+				0CBD2ABD17FDBBE8005339A4 /* InfoPlist.strings */,
+				0CBD2AC017FDBBE8005339A4 /* main.m */,
+				0CBD2AC217FDBBE8005339A4 /* PosCodBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CBD2B1117FE2016005339A4 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				0C5D3B92182B01FC002AFBE8 /* PostCodes.h */,
+				0C5D3B93182B01FC002AFBE8 /* PostCodes.m */,
+				0CBD2AD717FDBC32005339A4 /* Model.xcdatamodeld */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CBD2AAF17FDBBE8005339A4 /* PosCodBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBD2AD417FDBBE8005339A4 /* Build configuration list for PBXNativeTarget "PosCodBook" */;
+			buildPhases = (
+				0CBD2AAC17FDBBE8005339A4 /* Sources */,
+				0CBD2AAD17FDBBE8005339A4 /* Frameworks */,
+				0CBD2AAE17FDBBE8005339A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PosCodBook;
+			productName = PosCodeSaver;
+			productReference = 0CBD2AB017FDBBE8005339A4 /* PosCodBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CBD2AA717FDBBE7005339A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Ramesh;
+			};
+			buildConfigurationList = 0CBD2AAA17FDBBE7005339A4 /* Build configuration list for PBXProject "PosCodBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CBD2AA517FDBBE7005339A4;
+			productRefGroup = 0CBD2AB117FDBBE8005339A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CBD2AAF17FDBBE8005339A4 /* PosCodBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CBD2AAE17FDBBE8005339A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD2ABF17FDBBE8005339A4 /* InfoPlist.strings in Resources */,
+				0CBD2B2017FEE19A005339A4 /* sqlliteNotes in Resources */,
+				0C6F4E48180425CC001DD6DB /* Notes in Resources */,
+				0C5D3BAE18338676002AFBE8 /* bgImg.png in Resources */,
+				0C3DDCD118421D5600FACAB4 /* Default-568h@2x.png in Resources */,
+				0C3DDCD918455A0A00FACAB4 /* icon-57.png in Resources */,
+				0C3DDCDA18455A0A00FACAB4 /* icon-60.png in Resources */,
+				0C3DDCDB18455A0A00FACAB4 /* icon-114.png in Resources */,
+				0C3DDCDC18455A0A00FACAB4 /* icon-120.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBD2AAC17FDBBE8005339A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD2AC117FDBBE8005339A4 /* main.m in Sources */,
+				0CBD2AC517FDBBE8005339A4 /* AppDelegate.m in Sources */,
+				0CBD2AD917FDBC32005339A4 /* Model.xcdatamodeld in Sources */,
+				0C93969E181863BA00F90D84 /* MainView.m in Sources */,
+				0CA75047181AEC14002C114D /* AddEditView.m in Sources */,
+				0C9C0003181FD36B00C31814 /* CustomCell.m in Sources */,
+				0C5D3B94182B01FC002AFBE8 /* PostCodes.m in Sources */,
+				0C5D3BB518350FC5002AFBE8 /* Validators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CBD2ABD17FDBBE8005339A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CBD2ABE17FDBBE8005339A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CBD2AD217FDBBE8005339A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CBD2AD317FDBBE8005339A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CBD2AD517FDBBE8005339A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kalaiselvi Subramaniyam (EB2VF4EEN7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PosCodeSaver/PosCodBook-Prefix.pch";
+				INFOPLIST_FILE = "PosCodeSaver/PosCodBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = PosCodBook;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "93096D74-BAC5-4FE2-AE63-D8E97EAEFDDB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CBD2AD617FDBBE8005339A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kalaiselvi Subramaniyam (4AMR8E6942)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PosCodeSaver/PosCodBook-Prefix.pch";
+				INFOPLIST_FILE = "PosCodeSaver/PosCodBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = PosCodBook;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "95225F91-29B1-4126-8F1D-42A03515B31C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBD2AAA17FDBBE7005339A4 /* Build configuration list for PBXProject "PosCodBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBD2AD217FDBBE8005339A4 /* Debug */,
+				0CBD2AD317FDBBE8005339A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CBD2AD417FDBBE8005339A4 /* Build configuration list for PBXNativeTarget "PosCodBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBD2AD517FDBBE8005339A4 /* Debug */,
+				0CBD2AD617FDBBE8005339A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CBD2AD717FDBC32005339A4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CBD2AD817FDBC32005339A4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0CBD2AD817FDBC32005339A4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0CBD2AA717FDBBE7005339A4 /* Project object */;
+}

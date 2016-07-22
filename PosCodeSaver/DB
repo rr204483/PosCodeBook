@@ -1,0 +1,6 @@
+insert into zpostcodes(zpostcode, zreference) values ('RG302DU', 'Home');
+insert into zpostcodes(zpostcode, zreference) values ('SN21FE', 'Prabhu');
+insert into zpostcodes(zpostcode, zreference) values ('NP2OVJ', 'Vadi');
+insert into zpostcodes(zpostcode, zreference) values ('ISLE', 'Isle');
+insert into zpostcodes(zpostcode, zreference) values ('TW2VOJ', 'Kalai');
+insert into zpostcodes(zpostcode, zreference) values ('BELFAST', 'Thala');
